@@ -1,0 +1,52 @@
+.btn-actions {
+    height: 50%;
+    border: none;
+    background-color: #36393e;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.btn-actions:hover {
+    background-color: #424549;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    color: #7289da;
+}
+
+.btn-remove:hover {
+    color: #EF3D3D;
+}
+
+.todo-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.task-section {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task-name {
+    text-transform: uppercase;
+    background-color: #36393e;
+}
+
+.task-info {
+    background-color: #282b30;
+}
+
+.task-description {
+    background-color: #282b30;
+}
+
+.task-actions {
+    background-color: #36393e;
+}
