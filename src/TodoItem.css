@@ -1,15 +1,21 @@
+/* ===================================================================== BUTTONS ===================================================================== */
+
 .btn-actions {
     height: 50%;
     border: none;
-    background-color: #36393e;
+    background-color: #0C0032;
     color: white;
     transition: 0.2s ease;
 }
 
 .btn-actions:hover {
-    background-color: #424549;
+    background-color: #190061;
     transition: 0.2s ease;
     cursor: pointer;
+}
+
+.btn-edit {
+    border-top:2px solid #01051c;
 }
 
 .btn-edit:hover {
@@ -20,33 +26,48 @@
     color: #EF3D3D;
 }
 
-.todo-wrapper {
-    display: flex;
-    flex-direction: row;
+
+/* ===================================================================== TASKS ===================================================================== */
+
+.task-actions {
+}
+
+.task-border {
+    box-shadow: 0 0 50px 2px #3500D3;
+}
+
+.task-description {
+
+}
+
+.task-name {
+    text-transform: capitalize;
 }
 
 .task-section {
-    height: 50px;
-    width: 250px;
+    height: 75px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.task-name {
-    text-transform: uppercase;
-    background-color: #36393e;
+.task-time-left {
 }
 
-.task-info {
-    background-color: #282b30;
+.task-time-left-text {
+    font-size: 250%;
 }
 
-.task-description {
-    background-color: #282b30;
+.task-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #0C0032;
+    margin: 20px;
 }
 
-.task-actions {
-    background-color: #36393e;
+.first-col {
+    width: 250px;
 }
