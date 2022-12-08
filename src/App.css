@@ -1,5 +1,12 @@
 .center-this {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 100%;
     top: 200px;
+}
+
+.task-items {
+    display: flex;
+    flex-direction: row;
 }

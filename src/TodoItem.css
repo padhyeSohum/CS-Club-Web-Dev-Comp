@@ -15,7 +15,7 @@
 }
 
 .btn-edit {
-    border-top:2px solid #01051c;
+    border-top:2px solid #3500D3;
 }
 
 .btn-edit:hover {
@@ -63,9 +63,10 @@
 .task-wrapper {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 200px;
     background-color: #0C0032;
     margin: 20px;
+    overflow-wrap:break-word;
 }
 
 .first-col {
